@@ -3,7 +3,7 @@
 
 ## Basic Login and Sign Up Page with pure HTML/CSS for Study
 
-Demo: [Click Here](http://login-signupstudy.netlify.app){:target="_blank"}
+Demo: [Click Here](http://login-signupstudy.netlify.app)
 
 ![images/sign-up.png](images/sign-up.png)
 
