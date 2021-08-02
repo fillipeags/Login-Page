@@ -1,17 +1,18 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
 
     <title>Login</title>
 </head>
 
 <body>
-    
-    <form action="login.html" class="login__form">
+
+    <form action="index.html" class="login__form">
         <h1>Log In</h1>
 
         <div class="txtb">
@@ -25,7 +26,7 @@
         </div>
 
         <input type="submit" class="log_btn" value="Login">
-        
+
         <div class="bottom-text">
             Dont Have an account ? <a href="sign-up.html">Sign Up</a>
         </div>
@@ -34,16 +35,17 @@
 
 
     <script type="text/javascript">
-        $(".txtb input").on("focus",function(){
+        $(".txtb input").on("focus", function () {
             $(this).addClass("focus");
         });
-        
-        $(".txtb input").on("blur",function(){
-            if($(this).val() == "")
-            $(this).removeClass("focus");
+
+        $(".txtb input").on("blur", function () {
+            if ($(this).val() == "")
+                $(this).removeClass("focus");
         });
-    </script>  
+    </script>
 
 
 </body>
+
 </html>
