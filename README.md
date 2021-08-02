@@ -1,6 +1,5 @@
 # Login Page
 
-# Login Page
 
 ## Basic Login and Sign Up Page with pure HTML/CSS for Study
 
